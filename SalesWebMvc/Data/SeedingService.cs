@@ -32,7 +32,7 @@ namespace SalesWebMvc.Data
             Seller s2 = new Seller(2, "Maria Green", "maria@gmail.com", new DateTime(1979, 12, 31), 3500.0, d2);
             Seller s3 = new Seller(3, "Alex Grey", "alex@gmail.com", new DateTime(1988, 1, 15), 2200.0, d1);
             Seller s4 = new Seller(4, "Martha Red", "martha@gmail.com", new DateTime(1993, 11, 30), 3000.0, d4);
-            Seller s5 = new Seller(5, "Donald Cerrone", "donald@gmail.com", new DateTime(2000, 1, 9), 4000.0, d3);
+            Seller s5 = new Seller(5, "Donald Cerrone", "donald@gmail.com", new DateTime(2000, 1, 9), 4000.0, d2);
             Seller s6 = new Seller(6, "Alex Jones", "alex@gmail.com", new DateTime(1997, 3, 4), 3000.0, d2);
 
             SalesRecord r1 = new SalesRecord(1, new DateTime(2018, 09, 25), 11000.0, SaleStatus.Billed, s1);
